@@ -1,21 +1,29 @@
 # Security Policy
 
-## Supported Versions
+## Protecting API Keys
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This project uses the Google Gemini AI API, which requires an API key to function.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+**Important:**
 
-## Reporting a Vulnerability
+- Do NOT commit your API keys or any sensitive credentials to the public repository.
+- Store API keys securely in environment variables or private configuration files.
+- Avoid sharing your API key publicly or in client-side code that can be easily inspected.
 
-Use this section to tell people how to report a vulnerability.
+## Reporting Security Vulnerabilities
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+If you discover a security vulnerability in this project, please report it responsibly:
+
+- Do NOT publicly disclose the issue immediately.
+- Contact the maintainer via email at: your.email@example.com
+- Provide detailed information about the vulnerability and steps to reproduce.
+
+We will respond promptly and work to fix the issue.
+
+## Third-Party Dependencies
+
+Keep dependencies up to date to avoid known vulnerabilities.
+
+---
+
+Thank you for helping keep this project secure!
