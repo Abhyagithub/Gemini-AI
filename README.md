@@ -15,7 +15,7 @@ A responsive clone of the Gemini AI interface built using **HTML**, **CSS**, and
 - Vanilla JavaScript (ES6)
 
 ## 🚀 Live Demo
-[Coming Soon]
+ Link:https://abhyagithub.github.io/Gemini-AI/
 
 ## 📁 Folder Structure
 ├── index.html
